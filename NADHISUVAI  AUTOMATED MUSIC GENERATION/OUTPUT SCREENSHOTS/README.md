@@ -1,7 +1,9 @@
-🎵 NADHISUVAI: Automated Music Generation Using Neural Networks
+#NADHISUVAI: Automated Music Generation Using Neural Networks
+
 NADHISUVAI is an AI-powered music generation system that composes melodically coherent and aesthetically pleasing music using deep learning techniques. Built as part of our coursework in Mobile Application Development and Machine Learning & Deep Learning Applications, the project focuses on integrating melody and rhythm to create music across multiple genres.
 
 🧠 Overview
+
 This project leverages:
 
 🎶 MIDI Dataset processing
@@ -14,7 +16,8 @@ This project leverages:
 
 🎼 Rhythm-melody synchronization for genre-specific outputs
 
-🎯 Features
+Features:
+
 Generate music in various genres: 🎷 Jazz, 🎹 Classical, 🎸 Rock, 🎧 Electronic, and more
 
 Real-time generation and playback
