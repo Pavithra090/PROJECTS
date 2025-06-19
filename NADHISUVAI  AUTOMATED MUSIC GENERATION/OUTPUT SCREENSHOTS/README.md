@@ -1,108 +1,110 @@
-**#NADHISUVAI: Automated Music Generation Using Neural Networks**
-
-NADHISUVAI is an AI-powered music generation system that composes melodically coherent and aesthetically pleasing music using deep learning techniques. Built as part of our coursework in Mobile Application Development and Machine Learning & Deep Learning Applications, the project focuses on integrating melody and rhythm to create music across multiple genres.
+🎼 NADHISUVAI: Automated Music Generation Using Neural Networks
+A deep learning-based intelligent music generation system for genre-specific compositions.
 
 🧠 Overview
+NADHISUVAI is a genre-aware music generation system that leverages deep learning, constraint satisfaction, and probabilistic modeling to compose melodically rich and rhythmically accurate music. Designed to mimic the style of real-world genres like jazz, classical, blues, and electronic, the system generates MIDI music with seamless integration of melody and rhythm.
 
-This project leverages:
-MIDI Dataset processing
-Constraint Satisfaction Problems (CSPs) for enforcing music theory rules
-Hidden Markov Models (HMMs) for pattern prediction
-Recurrent Neural Networks (RNNs) and LSTM for melody sequence generation
-Rhythm-melody synchronization for genre-specific outputs
+Created for musicians, producers, and AI enthusiasts, NADHISUVAI offers an intuitive interface and dynamic output engine capable of creating original compositions based on minimal input. It is ideal for creative assistance, music education, and experimental audio synthesis.
 
-Features:
+🚀 Features
+🎹 MIDI-based Melody and Rhythm Generation
 
-Generate music in various genres: 🎷 Jazz, 🎹 Classical, 🎸 Rock, 🎧 Electronic, and more
+📊 Genre-aware Neural Network Modeling (LSTM)
 
-Real-time generation and playback
+🧠 Constraint Satisfaction & Hidden Markov Models for Music Theory Adherence
 
-Export generated music as MIDI files
+🎵 Real-Time Composition Preview
 
-Customize style, tempo, and mood
+📁 MIDI File Export
 
-Mobile-friendly interface for quick generation and playback
+🎛️ Tempo and Style Customization
 
-🧰 Tech Stack
-Frontend: Flutter / Android XML (as per app UI)
+🎶 Genre Library: Classical, Pop, Jazz, Rock, Blues, Electronic, Reggae, and more
 
-Backend: Python (TensorFlow, NumPy, Music21, etc.)
+📈 Dynamic Note Velocity and Duration Sampling
 
-AI Models: LSTM, HMM
+📱 Android-Compatible Mobile UI for Playback
 
-File Handling: MIDI format parsing and generation
+🧩 Modules
+1. 🎼 MIDI Preprocessing Engine
+Extracts pitch, velocity, and duration from raw MIDI files. Applies normalization, augmentation (pitch shifting, time-stretching), and sequence padding.
 
-🗃️ Dataset
-MIDI Files across multiple genres
+2. 🎶 Melody Generator
+Uses CSP + HMM + LSTM to create musically rich melodies with adherence to key signatures and transition rules.
 
-Preprocessed for pitch, velocity, and duration
+3. 🥁 Rhythm Synthesizer
+Learns beat patterns and time signatures. Aligns rhythmic structures to generated melodies using synchronization constraints.
 
-Augmented using:
+4. 🧠 Genre Classifier
+Enables genre-specific generation by training on categorized MIDI sets. Influences note selection, tempo, and rhythmic feel.
 
-Pitch shifting
+5. 🎛️ Playback & Output Interface
+Mobile app allows users to choose genre, preview generated compositions, and download the results in MIDI format.
 
-Time stretching
+🛠️ Tech Stack
+Languages:
 
-Note reordering
+Python
 
-🛠️ Methodology
-Feature Extraction: Pitch, velocity, duration from MIDI
+XML/Java (for Android App)
 
-Data Augmentation: Enhances genre diversity
+Libraries & Tools:
 
-Melody Generation: Combines CSPs + HMMs + LSTM
+TensorFlow / Keras
 
-Rhythm Generation: Beat & tempo analysis
+Music21
 
-Integration: Synchronizes rhythm with melody
+NumPy, pandas
 
-Playback & Download: Outputs playable and downloadable MIDI files
+MIDIUtil
 
-📲 App Screenshots
-Genre Selection	Music Playing	Download Screen
-![Genre List]	![Playing Screen]	![Download UI]
+Android Studio
 
-(Images to be added here manually or linked from your repository)
+⚙️ How It Works
+MIDI files are extracted and normalized by pitch, duration, and velocity.
 
-📈 Results
-Generated music in genres like jazz, classical, and pop
+Melody is generated using LSTM models trained with constraints from CSP and HMMs.
 
-Evaluated based on:
+Rhythm is learned from time-signature and beat patterns in genre-specific datasets.
 
-Musicality
+Generated melodies and rhythms are synchronized.
 
-Novelty
+The final output is composed, rendered, and exported as a MIDI file.
 
-Listener engagement
+User can preview, stop, or download the composition from the mobile interface.
 
-High adaptability to new genre inputs and style variations
+📲 App UI Snapshots
+🎵 Home	🎧 Genre Select	🎼 Playing	⬇️ Download
+![Fig1]	![Fig2]	![Fig3]	![Fig4]
 
-📚 Literature References
-Our model builds on prior research including LSTM networks for music sequence learning, GANs for melody quality, and attention mechanisms for dynamic variation. Full references are available in the report.
+(Insert actual images or links if uploading screenshots to GitHub)
 
-👨‍💻 Contributors
-Maharaja R – GitHub Profile
+📈 Results & Evaluation
+The system was evaluated based on:
 
-Pavithra J – GitHub Profile
+Melodic Coherence
 
-Project under the guidance of Rajalakshmi Engineering College (Anna University) – Department of Artificial Intelligence and Machine Learning
+Genre Authenticity
 
-📦 How to Run
-bash
-Copy
-Edit
-# Clone the repo
-git clone https://github.com/your-username/nadhisuvai.git
+Listener Engagement
+Initial feedback indicates high novelty and musicality across genres.
 
-# Install dependencies
-pip install -r requirements.txt
+🔮 Future Enhancements
+🎤 Voice-based input for melody seed
 
-# Run the music generator
-python app.py
+🧠 Emotional tone control (happy, sad, energetic)
 
-# Launch mobile app / emulator to use GUI
-🎼 Sample Output
-You can find sample generated MIDI files in the samples/ folder.
+🎨 User-driven style transfer (e.g., “generate Mozart-style pop”)
 
-📄 License
-This project is for academic and educational purposes. Please contact us before commercial use.
+📡 Web Dashboard Interface for music generation
+
+📡 Real-time Music Jamming with AI
+
+📜 License
+This project is part of a B.E. Mini Project submitted to Rajalakshmi Engineering College in partial fulfillment for the degree of B.E. in Artificial Intelligence and Machine Learning (Anna University).
+
+For educational use only. Commercial applications may require licensing.
+
+📚 References
+Based on research and citations from IEEE, ACM, and top AI/ML music generation literature. See full citations in the project report.
+
