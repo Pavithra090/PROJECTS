@@ -1,20 +1,15 @@
-#NADHISUVAI: Automated Music Generation Using Neural Networks
+**#NADHISUVAI: Automated Music Generation Using Neural Networks**
 
 NADHISUVAI is an AI-powered music generation system that composes melodically coherent and aesthetically pleasing music using deep learning techniques. Built as part of our coursework in Mobile Application Development and Machine Learning & Deep Learning Applications, the project focuses on integrating melody and rhythm to create music across multiple genres.
 
 🧠 Overview
 
 This project leverages:
-
-🎶 MIDI Dataset processing
-
-🧩 Constraint Satisfaction Problems (CSPs) for enforcing music theory rules
-
-📊 Hidden Markov Models (HMMs) for pattern prediction
-
-🔁 Recurrent Neural Networks (RNNs) and LSTM for melody sequence generation
-
-🎼 Rhythm-melody synchronization for genre-specific outputs
+MIDI Dataset processing
+Constraint Satisfaction Problems (CSPs) for enforcing music theory rules
+Hidden Markov Models (HMMs) for pattern prediction
+Recurrent Neural Networks (RNNs) and LSTM for melody sequence generation
+Rhythm-melody synchronization for genre-specific outputs
 
 Features:
 
